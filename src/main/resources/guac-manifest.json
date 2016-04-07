@@ -1,0 +1,12 @@
+{
+
+    "guacamoleVersion" : "0.9.9",
+
+    "name"      : "Guacamole HMAC Config Authentication Extension",
+    "namespace" : "guacamole-auth-hmac-config",
+
+    "authProviders" : [
+        "com.brianwells.guacamole.net.hmac.HmacAuthenticationProvider"
+    ]
+
+}

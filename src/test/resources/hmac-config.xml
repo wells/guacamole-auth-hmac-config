@@ -1,0 +1,15 @@
+<configs>
+    <config name="test-pc" protocol="rdp">
+        <param name="hostname" value="10.2.3.4" />
+        <param name="port" value="3389" />
+        <param name="username" value="username" />
+        <param name="password" value="password" />
+        <param name="ignore-cert" value="true" />
+        <param name="security" value="any" />   
+        <param name="disable-audio" value="true" />
+        <param name="server-layout" value="en-us-qwerty" />
+        <param name="enable-font-smoothing" value="true" />
+        <param name="enable-full-window-drag" value="true" />
+        <param name="enable-menu-animations" value="true" />
+    </config>
+</configs>
