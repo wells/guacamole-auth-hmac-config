@@ -91,7 +91,7 @@ but with recent versions of PHP it looks like this:
 
     base64_encode(hash_hmac('sha1', $message, $secret));
 
-Also, don't forget to `urlencode()` the `signature` parameter.
+Also, don't forget to `urlencode()` the `signature` parameter in the URL.
 
 An [example PHP implementation][example-php] is included in `src/example/php`.
 
